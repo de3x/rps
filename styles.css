@@ -1,0 +1,99 @@
+html {
+    background-color: bisque;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    text-align: center;
+    margin: 20px 0 20px;
+}
+
+#player-choices {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 12px;
+}
+
+#player-choices button {
+    flex: auto;
+
+    
+}
+
+#round-number {
+    text-align: center;
+    margin: 80px 0 0;
+    font-style: italic;
+}
+
+#restart-game {
+    max-width: 400px;
+    align-self: center;
+}
+
+#results {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 40px 0;
+}
+
+#left-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 280px;
+    flex: auto;
+
+    
+}
+
+#right-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: auto;
+
+}
+
+#details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border: 2px dotted black;
+    padding: 12px;
+    min-width: 280px;
+    
+    
+}
+
+#score {
+    align-self: center;
+    text-decoration: underline;
+    
+}
+
+#round-result {
+    font-weight: bold;
+
+}
+
+#game-result {
+    text-align: center;
+}
+
+#instructions {
+    text-align: center;
+    font-style: italic;
+    font-weight: normal;
+}
+
+#five {
+    font-weight: bolder;
+}

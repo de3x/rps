@@ -3,8 +3,38 @@
 <head>
   <title>Rock Paper Scissors</title>
   <meta charset="UTF-8"/>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <h1>rock. paper. scissors.</h1>
+  <h5 id="instructions">first to <span id="five">5</span> wins the game!</h5>
+  <div id="player-choices"> 
+    <button id="rock" type="button">Rock</button>
+    <button id="paper" type="button">Paper</button>
+    <button id="scissors" type="button">Scissors</button>
+  </div>
+  <div id="results">
+    <div id="left-container">
+      <h3 id="round-number">Make a selection to begin round.</h3>
+      <button type="button" id="restart-game">Restart Game</button>
+    </div>
+    <div id="right-container">  
+      <div id="details"> 
+        <h4 id="score">SCOREBOARD</h4>
+        <p id="round-result">Results will be shown after game begins.</p>
+        <p id="player-score"></p>
+        <p id="computer-score"></p>
+      </div>
+     
+    </div>
+   
+    
+    
+  </div>
+  <h2 id="game-result"></h2>
+ 
+
+
   <script src="script.js">
   </script>
 </body>
